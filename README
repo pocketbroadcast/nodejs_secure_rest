@@ -1,0 +1,9 @@
+The code provided here is by no means production ready, it must not be run on public accessible servers.
+
+Generated the Server private key and certificate (using FQDN: localhost): 
+openssl req -x509 -newkey rsa:4096 -keyout server_key.pem -out server_cert.pem -nodes
+
+Generated the Server private key and certificate: 
+openssl req -x509 -newkey rsa:4096 -keyout client001_key.pem -out client001_cert.pem -nodes
+
+Since this is demo I also checked in the private keys, NEVER DO THIS in production (or elsewhere)!

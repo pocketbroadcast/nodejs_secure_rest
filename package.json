@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_secure_rest",
+  "version": "1.0.0",
+  "description": "Demo implementation of a rest service authenticating clients and server with certificates",
+  "homepage": "https://github.com/pocketbroadcast/nodejs_secure_rest",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/pocketbroadcast/nodejs_secure_rest.git"
+  },
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "node client/index.js"
+  },
+  "keywords": [
+    "secure",
+    "rest",
+    "certificate",
+    "https",
+    "authentication",
+    "demo",
+    "server",
+    "client"
+  ],
+  "author": "pocketbroadcast",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.4"
+  }
+}
